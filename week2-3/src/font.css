@@ -1,0 +1,18 @@
+.info {
+  font-size: 12px;
+  opacity: 0.3;
+  margin-left: 10px;
+}
+.opt {
+  font-size: 10px;
+  color: indianred;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-text {
+  font-size: 11px;
+  color: white;
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
+@import "top_bar.css";
+@import "title.css";
+@import "log-in.css";
+@import "font.css";
+@import "need_more_opt.css";
+* {
+  box-sizing: border-box;
+  overflow: visible;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#background {
+  width: 400px;
+  height: 700px;
+  margin: 30px;
+  background-color: #f8f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#phone {
+  width: 300px;
+  height: 600px;
+  box-shadow: 0px 10px 20px 0px rgba(88, 86, 94, 1), inset 0 2px 10px #7c7c7e;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#display {
+  width: 265px;
+  height: 560px;
+  background-color: #e8eaec;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}

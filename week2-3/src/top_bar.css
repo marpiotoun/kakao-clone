@@ -1,0 +1,16 @@
+.display__column .top_bar {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+}
+
+.display__column:nth-child(1) > div:nth-child(2) {
+  position: relative;
+  width: 105px;
+  height: 20px;
+  top: -20px;
+  left: 7px;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 15px 15px;
+}

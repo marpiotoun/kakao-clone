@@ -1,0 +1,8 @@
+.need_more_opt {
+  width: 265px;
+  height: 45px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

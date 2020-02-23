@@ -1,0 +1,84 @@
+.user-info {
+  width: 530px;
+  height: 600px;
+  margin-top: 13px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 643px;
+}
+.user__background-pic {
+  width: 530px;
+  height: 300px;
+  overflow: hidden;
+}
+.user__background-pic > img {
+  width: 530px;
+  height: auto;
+  margin: 0 0 0 0;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+}
+.user__profile-pic {
+  width: 530px;
+  height: 120px;
+  margin-top: -60px;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.user__profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+.user-info .bottom-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.user__name {
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 25px;
+
+  margin-top: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.user__description {
+  margin: 10px 30px;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.4;
+}
+.bottom-box-btn {
+  width: 530px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 200px;
+  height: 55px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.btn:nth-child(1) {
+  background-color: #6870f9;
+  color: white;
+  font-weight: 600;
+}
+.btn:nth-child(2) {
+  margin-left: 30px;
+  background-color: #ebebff;
+  font-weight: 600;
+  color: #6870f9;
+}

@@ -1,0 +1,10 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.display__column .title__name {
+  font-size: 20px;
+  font-family: "acme", sans-serif;
+}

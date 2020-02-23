@@ -1,0 +1,59 @@
+@import "reset.css";
+@import "top-film.css";
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap");
+@import "popular-recipes.css";
+@import "other-recipes.css";
+@import "nav.css";
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Ubuntu";
+}
+
+#background {
+  width: 450px;
+  height: 900px;
+  margin: 30px;
+  background-color: #f8f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#phone {
+  width: 400px;
+  height: 800px;
+  box-shadow: 0px 10px 20px 0px rgb(132, 131, 134), inset 0px 0px 10px 0px #bebebe;
+  background-color: #f3f3f3;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#display {
+  width: 360px;
+  height: 760px;
+  background-color: #eaebf1;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.display__header {
+  width: 360px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.display__header > span {
+  font-weight: 500;
+}

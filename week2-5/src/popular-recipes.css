@@ -1,0 +1,49 @@
+.display__popular-recepes {
+}
+.display__popular-recepes .popular-recepes__title {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.display__popular-recepes .popular-recepes__title > span:nth-child(1),
+.sub-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+.display__popular-recepes .popular-recepes__title > a {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(245, 82, 109);
+}
+.popular-recepes__categories {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 90px);
+  gap: 10px;
+}
+.popular-recepes__categories .popular-recepes__categories__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  background-size: cover;
+}
+.popular-recepes__categories .popular-recepes__categories__item:nth-child(1) {
+  background-image: linear-gradient(to top, rgb(48, 48, 48), rgba(0, 0, 0, 0) 70%),
+    url("images/cooking1.jpg");
+}
+.popular-recepes__categories .popular-recepes__categories__item:nth-child(2) {
+  background-image: linear-gradient(to top, rgb(48, 48, 48), rgba(0, 0, 0, 0) 70%),
+    url("images/cooking2.jpg");
+}
+.popular-recepes__categories .popular-recepes__categories__item:nth-child(3) {
+  background-image: linear-gradient(to top, rgb(48, 48, 48), rgba(0, 0, 0, 0) 70%),
+    url("images/cooking3.jpg");
+}
+.popular-recepes__categories .popular-recepes__categories__item:nth-child(4) {
+  background-image: linear-gradient(to top, rgb(48, 48, 48), rgba(0, 0, 0, 0) 70%),
+    url("images/cooking4.jpg");
+}

@@ -1,0 +1,69 @@
+.log-in {
+  width: 265px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log-in__input {
+  width: 220px;
+  height: 35px;
+  margin: 15px 0;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(228, 228, 228);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.log-in__forgot_password {
+  width: 220px;
+  height: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.log-in__remember_me {
+  width: 220px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.log-in__sign_in-btn {
+  width: 220px;
+  height: 35px;
+  background-color: #e2283e;
+  border-radius: 20px;
+}
+.display_OR {
+  margin-left: 22.5px;
+  margin-bottom: 25px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.login_opt_btn {
+  width: 265px;
+  height: 25px;
+  padding: 0 22.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.facebook-btn,
+.twitter-btn {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+}
+.facebook-btn {
+  background-color: #475a95;
+}
+.twitter-btn {
+  background-color: #5da1f2;
+}

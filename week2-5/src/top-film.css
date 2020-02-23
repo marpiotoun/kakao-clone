@@ -1,0 +1,12 @@
+.display__top-film {
+  width: 360px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+.mid-film {
+  height: 30px;
+  width: 150px;
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 20px 20px;
+}
