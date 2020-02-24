@@ -13,10 +13,12 @@
 .friend__avatar.g-avatar {
   width: 65px;
   height: 65px;
+  object-fit: cover;
 }
 .friend__avatar.mid-avatar {
   width: 60px;
   height: 60px;
+  object-fit: cover;
 }
 .friend .friend__column {
   display: flex;
@@ -59,6 +61,8 @@
 .friend .friend__now-listening > i {
   color: green;
   font-size: 12px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 .friend__now-listening > span {
   font-size: 14px;

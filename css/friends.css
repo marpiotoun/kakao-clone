@@ -9,3 +9,6 @@
   opacity: 0.5;
   margin-bottom: 10px;
 }
+.friend__add-btn {
+  cursor: pointer;
+}
