@@ -1,0 +1,179 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  width: 800px;
+  height: 600px;
+  background-color: #f7f7f7;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.default {
+  position: relative;
+  width: 500px;
+  height: 350px;
+
+  background-color: red;
+}
+.view-btn {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 82, 109);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* 
+    camera
+*/
+.camera__default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7cfff;
+}
+.camera__img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50px;
+  background-image: url("images/camera.jpg");
+  background-size: cover;
+}
+.camera__hover-screen {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 22, 53);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1.title {
+  font-size: 30px;
+  color: white;
+  padding: 20px 20px 0 20px;
+  font-weight: bold;
+}
+.director {
+  color: rgb(187, 34, 60);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px 40px 20px;
+}
+.camera__default:hover > .camera__hover-screen {
+  opacity: 1;
+  transform: translate(20px, 20px);
+}
+/* 
+    game-center
+} */
+.game-center__default {
+  overflow: hidden;
+}
+
+.game-center__logo {
+  width: 500px;
+  height: 100%;
+
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+.game-center__img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50px;
+  background-image: url("images/game-center.png");
+  background-size: cover;
+}
+.game-center__bottom {
+  width: 500px;
+  height: 100px;
+  bottom: -100px;
+  background-color: rgb(30, 22, 53);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game-center__default:hover > .game-center__logo {
+  height: 250px;
+}
+.introduce {
+  position: relative;
+  top: -20px;
+}
+.game-center__bottom .view-btn {
+  position: relative;
+  top: 10px;
+  right: 30px;
+}
+
+/* 
+    safari
+*/
+
+.safari__hover-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #02c0e5;
+  float: left;
+  z-index: 2;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.safari__img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50px;
+  background-image: url("images/safari.png");
+  background-size: cover;
+}
+.safari__default:hover > .safari__hover-screen {
+  transform: translateY(-30px) scale(0.5);
+}
+.safari__hover-screen__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: rgb(30, 22, 53);
+  color: white;
+
+  font-size: 30px;
+  clear: both;
+}
+
+.safari__hover-screen__background .view-btn {
+  position: relative;
+  bottom: 20px;
+  right: 30px;
+}
